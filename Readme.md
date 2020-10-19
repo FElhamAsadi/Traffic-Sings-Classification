@@ -29,20 +29,14 @@ Our dataset includes:
 - 12630 testing examples
 - 43 different classes
  Here you can see one image from each classes in the training dataset:
-
-[//]: # (Image References)
-[image1]: ./examples/TrainingSet.png "Visualization"
-![alt text](./examples/TrainingSet.png)
+![image1t](./examples/TrainingSet.png)
 
 And the occurance frequency of each class is shown in the following histogram: 
-[//]: # (Image References)
-[image2]: ./examples/Hist_TrainingSet.png "Histogram of Training Dataset"
-![alt text](./examples/Hist_TrainingSet.png )
+![image2](./examples/Hist_TrainingSet.png )
 
 According the training set histogram, some classes have very few samples in the training set. So, I decided to produce some new training samples by augmenting the existing data. Three techniques are used for augmentation, including random rotation, random translation and random sheering of randaom samples chosen from existing training set. The brightness of each random selected sample is checked to prevent passing too dark images. Since the aim of this step is converting the training set to an evenly distributed set, only classes which have low number of samples will be augmented. As shown in the histogram below, different classes have reletively the same portions in the new training set. Here, you can see some samples produced by augmentation techniques.
-[//]: # (Image References)
-[image3]: ./examples/Hist_AugSet.png "Histogram of Augmented Training Dataset"
-[image4]: ./examples/Smplet_AugSet.png "Some Sample from Augmented Dataset"
+![image3]( ./examples/Hist_AugSet.png )
+![image4](./examples/Smplet_AugSet.png )
 
 
 ## Step 2: Design the Model Architecture
@@ -86,9 +80,8 @@ Besides model architecture parameters including number and size of the filters i
  
  ## Step 3: Training the Model
 Following figures show the loss changes and the learning curves during the traing the model:
-[//]: # (Image References)
-[image5]: ./examples/Loss.png 
-[image6]: ./examples/LearningCurve.png 
+![image5]( ./examples/Loss.png )
+![image6]( ./examples/LearningCurve.png  )
 
 My final model results were:
 * training set accuracy of 96.9%
@@ -97,8 +90,7 @@ My final model results were:
 
 ## Step 4: Test a Model on New Images
 Seven new images were downloded from GTSRB:
-[//]: # (Image References)
-[image5]: ./examples/NewImg.png 
+![image7( ./examples/NewImg.png  )
 
 Here are the results of the prediction:
 
