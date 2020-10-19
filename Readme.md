@@ -37,6 +37,7 @@ Our dataset includes:
 And the occurance frequency of each class is shown in the following histogram: 
 [//]: # (Image References)
 [image2]: ./examples/Hist_TrainingSet.png "Histogram of Training Dataset"
+![alt text](./examples/Hist_TrainingSet.png )
 
 According the training set histogram, some classes have very few samples in the training set. So, I decided to produce some new training samples by augmenting the existing data. Three techniques are used for augmentation, including random rotation, random translation and random sheering of randaom samples chosen from existing training set. The brightness of each random selected sample is checked to prevent passing too dark images. Since the aim of this step is converting the training set to an evenly distributed set, only classes which have low number of samples will be augmented. As shown in the histogram below, different classes have reletively the same portions in the new training set. Here, you can see some samples produced by augmentation techniques.
 [//]: # (Image References)
