@@ -1,7 +1,5 @@
 # **Traffic Sign Recognition** 
 
-## Writeup
-
 ---
 
 **Build a Traffic Sign Recognition Project**
@@ -34,6 +32,7 @@ Our dataset includes:
 
 [//]: # (Image References)
 [image1]: ./examples/TrainingSet.png "Visualization"
+![alt text](./examples/TrainingSet.png)
 
 And the occurance frequency of each class is shown in the following histogram: 
 [//]: # (Image References)
