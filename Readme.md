@@ -90,7 +90,7 @@ My final model results were:
 
 ## Step 4: Test a Model on New Images
 Seven new images were downloded from GTSRB:
-![image7( ./examples/NewImg.png  )
+![image7]( ./examples/NewImg.png)
 
 Here are the results of the prediction:
 
